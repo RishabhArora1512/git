@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.box{
+    border: 1px solid red;
+    width: 20%;
+}
+
+.parent{
+    border: 1px solid black;
+}
+
+.child{
+    border: 1px solid red;
+    width: 25%; /*25% of parent*/
+    margin: 30px;
+}
