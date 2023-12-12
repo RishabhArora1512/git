@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color:aquamarine;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: brown; */
+    border: solid 2px brown;
+    border-radius: 5px;
+    width:350px;
+}
+
+.f{
+    /* height:200px; */
+    width:350px;
+    /* height:100px; */
+    background-color:blanchedalmond;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.s{
+    width:350px;
+    /* height:100px; */
+    background-color:beige;
+    box-sizing: border-box;
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap:20px;
+    width: 260px;
+    height: 400px;
+    background-color: #fff;
+    /* padding: 20px; */
+    border-radius: 20px;
+}
+
+.card h4{
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 260px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height:100px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.annual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    /* align-items: start; */
+}
+
+.ituneImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;  
+    margin-right: 10px;  
+    margin-left: 10px;
+}
+
+.ituneImage img{
+    height: 20px;
+    width: 20px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;    
+
+}
+
+.button button{
+    color: #fff;
+    background-color: #032336;
+    background-image: linear-gradient(135deg, #032336 0%, #04073c 33%, #08105d 66%, #050d4c 100%);
+    width: 70%;
+    height: 100%;
+    font-size: 4px;
+    border-radius: 10px;
+    box-shadow: 0 4px 2px -2px gray;
+
+}
+
+.button button:hover{
+    transform: scale(1.1);
+}
+
+.button:hover button{
+    opacity: 1;
+    transition: all 0.6s 0s;
+}
+
+
+.cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change{
+    margin-right: 10px;
+}
+
+.summary h4{
+    margin-bottom: 15px;
+}
+
+.summary p{
+    width: 70%;
+}
+
+.price{
+    font-size: 9px;
+    font-weight: bold;
+}
